@@ -1,0 +1,177 @@
+.Window {
+    padding: 1.2rem 2rem;
+    border-radius: 8px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 6px);
+    background: transparent;
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+    margin-right: 0.4rem;
+    color: #5f5f5f;
+}
+
+.headerContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.headedContent {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.actions {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.actions button {
+    padding: 0.3rem 1.5rem;
+    background: transparent;
+    color: #5f5f5f;
+    border: 1px solid #5f5f5f;
+    ;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.actions button:hover {
+    background: #5f5f5f;
+    color: #fff;
+    border: 1px solid #5f5f5f;
+    cursor: pointer;
+}
+
+.separator {
+    width: 100%;
+    background-color: #5f5f5f;
+    height: 0.2px;
+    margin-bottom: 0.4rem;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputSection {
+    display: flex;
+    height: 70vh;
+    overflow: auto;
+    padding: 0.5rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.message {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+}
+
+.card {
+    padding: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    background: rgba(255, 255, 255, 0.167);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    color: #5f5f5f;
+}
+
+.cardHeader {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.cardContent {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.skillCard {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+.tag {
+    background-color: #ffffff7d;
+    color: #5f5f5f;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.65rem;
+}
+
+.exampleList {
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.customScrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff00;
+}
+
+.customScrollbar::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 0px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+    background-color: #ffffff64;
+    border-radius: 0px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff92;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb:active {
+    background-color: #ffffff92;
+}
+
+.customScrollbar::-webkit-scrollbar-corner {
+    background: #ffffff64;
+}

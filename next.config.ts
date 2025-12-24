@@ -1,0 +1,13 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+  allowedDevOrigins:
+[
+    "http://192.168.1.2",
+    "http://localhost:9121"
+   ],
+
+};
+
+export default nextConfig;
